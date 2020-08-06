@@ -6,7 +6,7 @@ namespace ATM_Dispenser
 {
     public class Dispenser : IDispenser
     {
-        public Dictionary<int, int> GetMoney(int amount)
+        public Dictionary<int, int> DispenseMoney(int amount)
         {
             Dictionary<int, int> dispensedMoney = new Dictionary<int, int>();
             foreach (int note in AmountTypes.types)

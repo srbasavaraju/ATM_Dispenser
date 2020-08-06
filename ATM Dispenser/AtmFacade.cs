@@ -19,7 +19,7 @@ namespace ATM_Dispenser
             bool isValidAmountEntered = validator.IsValidAmount(amount);
             if (!isValidAmountEntered)
             {
-                Dictionary<int, int> amountInNotes = dispensor.GetMoney(amount);
+                Dictionary<int, int> amountInNotes = dispensor.DispenseMoney(amount);
                 foreach (KeyValuePair<int, int> note in amountInNotes)
                 {
                     Console.WriteLine("Numebr of notes of Rupees {0} is {1}", note.Key, note.Value);

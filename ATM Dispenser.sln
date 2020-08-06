@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATM Dispenser", "ATM Dispensor\ATM Dispenser.csproj", "{BE66BEAD-58DD-4C9C-9A57-EEB8E4CCD2F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATM Dispenser", "ATM Dispenser\ATM Dispenser.csproj", "{BE66BEAD-58DD-4C9C-9A57-EEB8E4CCD2F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

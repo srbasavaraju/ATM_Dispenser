@@ -4,6 +4,6 @@ namespace ATM_Dispenser.Interfaces
 {
     public interface IDispenser
     {
-        Dictionary<int, int> GetMoney(int amount);
+        Dictionary<int, int> DispenseMoney(int amount);
     }
 }
